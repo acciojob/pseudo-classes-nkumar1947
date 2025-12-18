@@ -1,1 +1,10 @@
-/*  your css code here. If applicable */
+body {
+  background: linear-gradient(
+    to right,
+    rgb(173, 216, 230),
+    rgb(158, 210, 232)
+  );
+}
+.1{
+color:white;	
+}
