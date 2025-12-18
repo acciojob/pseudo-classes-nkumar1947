@@ -1,13 +1,12 @@
-/* Background */
+
 :root {
   background-color: rgb(135, 206, 235);
 }
-
-/* Paragraphs */
-p:first-of-type {
-  color: white;
-  background-color: black;
+h3{
+	background-color:black;
+	color:white;
 }
+
 
 p:nth-of-type(2) {
   color: black;
@@ -17,25 +16,24 @@ p:last-of-type {
   color: red;
 }
 
-/* List base style */
 ul li {
   width: 50%;
   padding: 10px;
   background-color: gray;
 }
 
-/* Odd items white */
+
 ul li:nth-child(odd) {
   background-color: white;
 }
 
-/* First & last item font size */
+
 ul li:first-child,
 ul li:last-child {
   font-size: 22px;
 }
 
-/* Third from last */
+
 ul li:nth-last-child(3) {
   background-color: pink;
 }
