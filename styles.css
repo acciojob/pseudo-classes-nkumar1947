@@ -1,3 +1,4 @@
+
 body {
   background: linear-gradient(
     to right,
@@ -10,12 +11,13 @@ color:red;
 }
 ul{
 	padding:10px
+	margin:20px
 }
 .l1{
 	width:50%;
 	background-color:white;
 	font-size:22px
-	padding:10px
+	
 }
 
 .l5{
