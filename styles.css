@@ -1,42 +1,41 @@
-
-body {
-  background: linear-gradient(
-    to right,
-    rgb(173, 216, 230),
-    rgb(158, 210, 232) );
+/* Background */
+:root {
+  background-color: rgb(135, 206, 235);
 }
 
-.c{
-color:red;	
-}
-ul{
-	padding:10px
-	margin:20px
-}
-.l1{
-	width:50%;
-	background-color:white;
-	font-size:22px
-	
+/* Paragraphs */
+p:first-of-type {
+  color: white;
+  background-color: black;
 }
 
-.l5{
-	width:50%;
-	background-color:white;
-	font-size:22px
+p:nth-of-type(2) {
+  color: black;
 }
 
-.l2{
-	width:50%;
-	background-color:gray;
+p:last-of-type {
+  color: red;
 }
 
-.l4{
-	width:50%;
-	background-color:gray;
+/* List base style */
+ul li {
+  width: 50%;
+  padding: 10px;
+  background-color: gray;
 }
 
-.l3{
-	width:50%;
-	background-color:pink;
+/* Odd items white */
+ul li:nth-child(odd) {
+  background-color: white;
+}
+
+/* First & last item font size */
+ul li:first-child,
+ul li:last-child {
+  font-size: 22px;
+}
+
+/* Third from last */
+ul li:nth-last-child(3) {
+  background-color: pink;
 }
