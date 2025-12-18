@@ -5,6 +5,36 @@ body {
     rgb(158, 210, 232)
   );
 }
-.1{
-color:white;	
+.c{
+color:red;	
+}
+ul{
+	padding:10px
+}
+.l1{
+	width:50%;
+	background-color:white;
+	font-size:22px
+	padding:10px
+}
+
+.l5{
+	width:50%;
+	background-color:white;
+	font-size:22px
+}
+
+.l2{
+	width:50%;
+	background-color:gray;
+}
+
+.l4{
+	width:50%;
+	background-color:gray;
+}
+
+.l3{
+	width:50%;
+	background-color:pink;
 }
